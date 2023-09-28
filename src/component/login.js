@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-function Login({setName}) {
+function Login({setName,chk}) {
     const [Player, setPlayer] = useState('');
 
     const handleInputChange = (e) => {
@@ -10,6 +10,7 @@ function Login({setName}) {
        
         console.log(Player)
         setName(Player)
+        chk(false)
         e.preventDefault()
     }
   return (
