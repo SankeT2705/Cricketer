@@ -155,7 +155,7 @@ findImage(response.data.player[0].id)
   <div  className="row">
 
     <div  className="col-sm-3 mb-3 mb-sm-0">
-      <Login setName={GetName}/>
+      <Login setName={GetName} chk={setMore}/>
     </div>
 
     <div  className="col-sm-9">
