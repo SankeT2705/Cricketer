@@ -3,6 +3,7 @@ import React from 'react'
 function Profile({name,country,image,chk}) {
  const onMore=(e)=>{
       chk(true)
+      e.preventDefault()
  }
   return (
   <div  className="card shadow" style={{width: '100%'}}>
