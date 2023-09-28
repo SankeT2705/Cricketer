@@ -1,0 +1,37 @@
+*{
+    font-family: 'Mooli', sans-serif;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.vertical-line {
+    position: relative;
+}
+
+.vertical-line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px solid #ccc; /* Adjust the border properties as needed */
+    transform: translateX(-50%);
+}
+/* Style for the profile picture */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.form-container {
+    background-color: #fff; /* Milky White Background for Form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.form-title {
+    text-align: center;
+    font-weight: bold; /* Bold Text */
+    color: #0000ff; /* Blue Text Color */
+}
