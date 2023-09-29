@@ -16,7 +16,7 @@ function Login({setName,chk}) {
   return (
     <div className="container-fluid"  >
     <div className="row justify-content-center mt-3 shadow" style={{minHeight:'200px'}}>
-        <div className="col  form-container">
+        <div className="col  form-container" style={{backgroundColor:'#faf7f7'}}>
             <h2 className="form-title">Search Player </h2>
             <form className='text-center'>
                
