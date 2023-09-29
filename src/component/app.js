@@ -55,7 +55,7 @@ odih={odih} testmatch={testmatch} testinning={testinning} testruns={testruns} te
     const response = await axios.get(`https://cricbuzz-cricket.p.rapidapi.com/stats/v1/player/${id}/bowling`, {
     
      headers: {
-         'X-RapidAPI-Key': 'b437e9f8f7mshd0b9b1d83c11e88p14efe9jsnfb5716693049',
+         'X-RapidAPI-Key': '7612df429dmshfd1ddf59e13dd91p138af1jsn4469652f23fd',
          'X-RapidAPI-Host':  'cricbuzz-cricket.p.rapidapi.com'
      }
       
@@ -72,7 +72,7 @@ const bating=async(id)=>{
   const response = await axios.get(`https://cricbuzz-cricket.p.rapidapi.com/stats/v1/player/${id}/batting`, {
  
    headers: {
-       'X-RapidAPI-Key': 'b437e9f8f7mshd0b9b1d83c11e88p14efe9jsnfb5716693049',
+       'X-RapidAPI-Key': 'b4712df314msh3e3f59b944cfcecp1aec59jsn834e4a3fa039',
        'X-RapidAPI-Host':  'cricbuzz-cricket.p.rapidapi.com'
    }
     
@@ -107,7 +107,7 @@ const bating=async(id)=>{
     const response = await axios.get(`https://cricbuzz-cricket.p.rapidapi.com/stats/v1/player/${id}`, {
      params: { plrN: id },
      headers: {
-         'X-RapidAPI-Key': 'b437e9f8f7mshd0b9b1d83c11e88p14efe9jsnfb5716693049',
+         'X-RapidAPI-Key': '566012bfd2msh4ef44ffff945b67p15c155jsna856bb742f11',
          'X-RapidAPI-Host':  'cricbuzz-cricket.p.rapidapi.com'
      }
       
@@ -128,7 +128,7 @@ const bating=async(id)=>{
     const response = await axios.get('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/player/search', {
      params: { plrN: name },
      headers: {
-         'X-RapidAPI-Key': 'b437e9f8f7mshd0b9b1d83c11e88p14efe9jsnfb5716693049',
+         'X-RapidAPI-Key': '566012bfd2msh4ef44ffff945b67p15c155jsna856bb742f11',
          'X-RapidAPI-Host':  'cricbuzz-cricket.p.rapidapi.com'
      }
  });
