@@ -13,11 +13,17 @@ function More({name,country,dob,role,bat,bowl,height,t20match,t20runs,t20heighes
           </div>
           <div className="card-body">
           <p>Name: {name}</p>
+    <hr></hr>
           <p>Country: {country}</p>
+    <hr></hr>
           <p>Birth Date: {dob}</p>
+    <hr></hr>
           <p>Role: {role}</p>
+    <hr></hr>
           <p>Bat: {bat}</p>
+    <hr></hr>
           <p>Bowl: {bowl}</p>
+    <hr></hr>
           <p>Height: {height}</p>
             
           </div>
@@ -31,11 +37,17 @@ function More({name,country,dob,role,bat,bowl,height,t20match,t20runs,t20heighes
           </div>
           <div className="card-body">
           <p>Match : {t20match}</p>
+    <hr></hr>
           <p>Runs: {t20runs}</p>
+    <hr></hr>
           <p>Highest: {t20heighest}</p>
+    <hr></hr>
           <p>Average: {t20average}</p>
+    <hr></hr>
           <p>Wickets: {t20w}</p>
+    <hr></hr>
           <p>Strike Rate: {t20strike}</p>
+    <hr></hr>
           <p>100: {t20h}</p>
             
           </div>
@@ -48,11 +60,17 @@ function More({name,country,dob,role,bat,bowl,height,t20match,t20runs,t20heighes
           </div>
           <div className="card-body">
           <p>Match : {odimatch}</p>
+    <hr></hr>
           <p>Runs: {odiruns}</p>
+    <hr></hr>
           <p>Highest: {odiheighest}</p>
+    <hr></hr>
           <p>Average: {odiaverage}</p>
+    <hr></hr>
           <p>Wickets: {odiw}</p>
+    <hr></hr>
           <p>Strike Rate: {odistrike}</p>
+    <hr></hr>
           <p>100 : {odih}</p>
              
           </div>
@@ -67,11 +85,17 @@ function More({name,country,dob,role,bat,bowl,height,t20match,t20runs,t20heighes
           </div>
           <div className="card-body">
           <p>Match : {testmatch}</p>
+    <hr></hr>
           <p>Innings: {testinning}</p>
+    <hr></hr>
           <p>Runs: {testruns}</p>
+    <hr></hr>
           <p>Highest: {testheighest}</p>
+    <hr></hr>
           <p>Average: {testaverage}</p>
+    <hr></hr>
           <p>Wickets: {testw}</p>
+    <hr></hr>
           <p>100: {testh}</p>
              
           </div>
