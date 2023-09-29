@@ -147,7 +147,7 @@ findImage(response.data.player[0].id)
   }
  
   return (
-    <div className='container-fluid' style={{backgroundColor:'#faf7f7', minHeight:'100vh',margin:'0px'}}>
+    <div className='container-fluid' style={{minHeight:'100vh',margin:'0px'}}>
     <Navbar/>
          
 
