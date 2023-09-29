@@ -6,7 +6,7 @@ function Profile({name,country,image,chk}) {
       e.preventDefault()
  }
   return (
-  <div  className="card shadow" style={{width: '100%'}}>
+  <div  className="card shadow" style={{backgroundColor:'#faf7f7',width: '100%'}}>
   <div  className="card-body">
       {/* inner profile photo div */}
 
