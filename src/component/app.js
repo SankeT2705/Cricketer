@@ -170,6 +170,7 @@ findImage(response.data.player[0].id)
       </div>
       )}
   </div>
+     <hr/>
   <div  className='row mt-2'>
     {Moreconent}
     </div> 
