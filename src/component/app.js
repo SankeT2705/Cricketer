@@ -6,7 +6,7 @@ import Login from './login'
 import More from './more'
 function App() {
    
-  
+   const [loading, setLoading] = useState(false);
   const [name,setName]=useState('')
   const [country,setCountry]=useState('')
   const [image,setImge]=useState('https://www.shutterstock.com/image-vector/man-icon-vector-250nw-1040084344.jpg')
@@ -142,7 +142,10 @@ findImage(response.data.player[0].id)
 
   const GetName=(e)=>
   {
-     
+     setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000); 
     findPlayer(e)
   }
  
@@ -157,10 +160,15 @@ findImage(response.data.player[0].id)
     <div  className="col-sm-3 mb-3 mb-sm-0">
       <Login setName={GetName} chk={setMore}/>
     </div>
-
-    <div  className="col-sm-9">
+      {loading ? (
+        <div className="loader-container col-sm-9">
+            <div className="spinner"></div>
+        </div>
+      ):(
+      <div  className="col-sm-9">
       <Profile name={name} country={country} image={image} chk={setMore}/>
-    </div>
+      </div>
+      )}
   </div>
   <div  className='row mt-2'>
     {Moreconent}
