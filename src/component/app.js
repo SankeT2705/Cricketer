@@ -128,7 +128,7 @@ const bating=async(id)=>{
     const response = await axios.get('https://cricbuzz-cricket.p.rapidapi.com/stats/v1/player/search', {
      params: { plrN: name },
      headers: {
-         'X-RapidAPI-Key': '566012bfd2msh4ef44ffff945b67p15c155jsna856bb742f11',
+         'X-RapidAPI-Key':'b437e9f8f7mshd0b9b1d83c11e88p14efe9jsnfb5716693049',
          'X-RapidAPI-Host':  'cricbuzz-cricket.p.rapidapi.com'
      }
  });
