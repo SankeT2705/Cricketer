@@ -21,7 +21,7 @@ function Login({setName,chk}) {
             <form className='text-center'>
                
                 <div className="form-group ">
-                    <input type="email" value={Player} onChange={handleInputChange} className="form-control my-1" id="email" placeholder="Enter Player Name"/>
+                    <input type="text" value={Player} onChange={handleInputChange} className="form-control my-1" id="email" placeholder="Enter Player Name"/>
                 </div>
 
                 <button type="submit" onClick={Submit} className="btn btn-outline-info shadow m-auto mt-1 rounded-xl" style={{width:'50%'}}>Find</button>
