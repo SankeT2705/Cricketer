@@ -82,7 +82,7 @@ function App() {
   const [iplth,setiplth]=useState('')
   const [iplfh,setiplfh]=useState('')
   const [iplhigh,setiplhigh]=useState('')
-  const [more,setMore]=useState(true)
+  const [more,setMore]=useState(false)
   let Moreconent=''
   if(more)
   {
