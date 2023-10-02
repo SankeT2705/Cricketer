@@ -105,8 +105,8 @@ function More({name,country,dob,role,bat,bowl,height,t20match,t20runs,t20heighes
      </div> 
       <hr></hr>
     <div className='row'>
-    <div className="table-responsive border shadow rounded m-1">
-            <table className="table text-center">
+    <div className="table-responsive table-scroll  m-1">
+            <table className="table text-center border table-striped shadow rounded">
                 <thead>
                     <tr>
                         <th>Type</th>
